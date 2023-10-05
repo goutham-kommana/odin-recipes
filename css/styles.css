@@ -1,0 +1,23 @@
+.h1 {   
+  text-align: center;
+}
+
+.lasagna {
+  width: 400px;
+  border: 2px solid black;
+  background: #FF6747;
+  margin: 16px auto;
+  padding: 8px;
+  display: block;
+  text-align: center;
+}
+
+.spicychicken {
+  width: 400px;
+  border: 2px solid black;
+  background: #FFAB47;
+  margin: 16px auto;
+  padding: 8px;
+  display: block;
+  text-align: center;
+}
