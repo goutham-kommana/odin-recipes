@@ -6,16 +6,76 @@
     padding: 20px;
     border: 2px solid blue;
 }
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  margin-right: auto;
+  margin-left: 20px;
+}
 
 header {   
   display: flex;
   justify-content: space-around;
+  background-color: darkseagreen;
 }
 
 .right-items {
   display: flex;
   align-items: center;
   gap: 15px;
+  margin-right: 20px;
+}
+
+content{
+  display: flex;
+
+}
+
+.lasagna {
+  display: flex;
+  width: 200px;
+  border: 2px solid black;
+  background: #FF6747;
+  margin: 16px auto;
+  padding: 91px 0px 91px 0px;
+  display: block;
+  text-align: center;
+}
+
+.spicychicken {
+  display: flex;
+  width: 200px;
+  border: 2px solid black;
+  background: #FFAB47;
+  margin: 16px auto;
+  padding: 91px 0px 91px 0px;
+  display: block;
+  text-align: center;
+}
+
+.buffalomac {
+  display: flex;
+  width: 200px;
+  border: 2px solid black;
+  background: #FFFF66;
+  margin: 16px auto;
+  padding: 91px 0px 91px 0px;
+  display: block;
+  text-align: center;
+}
+
+.cheesecake {
+  display: flex;
+  width: 200px;
+  border: 2px solid black;
+  background: lightgreen;
+  margin: 16px auto;
+  padding: 91px 0px 91px 0px;
+  display: block;
+  text-align: center;
 }
 
 footer {
@@ -23,25 +83,3 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.lasagna {
-  display: flex;
-  width: 400px;
-  border: 2px solid black;
-  background: #FF6747;
-  margin: 16px auto;
-  padding: 8px;
-  display: block;
-  text-align: center;
-}
-
-.spicychicken {
-  display: flex;
-  width: 400px;
-  border: 2px solid black;
-  background: #FFAB47;
-  margin: 16px auto;
-  padding: 8px;
-  display: block;
-  text-align: center;
-}
-
