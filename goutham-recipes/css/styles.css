@@ -37,7 +37,16 @@ header {
   margin-right: 20px;
 }
 
-content{
+contents1{
+  display: flex;
+  
+}
+img{
+  border: 2px solid black;
+
+}
+
+contents2{
   display: flex;
 
 }
