@@ -6,6 +6,13 @@
     padding: 20px;
     border: 2px solid blue;
 }
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: black;
+}
+
 body{
   display: flex;
   flex-direction: column;
@@ -36,7 +43,7 @@ content{
 
 .lasagna {
   display: flex;
-  width: 200px;
+  width: 218px;
   border: 2px solid black;
   background: #FF6747;
   margin: 16px auto;
@@ -47,7 +54,7 @@ content{
 
 .spicychicken {
   display: flex;
-  width: 200px;
+  width: 218px;
   border: 2px solid black;
   background: #FFAB47;
   margin: 16px auto;
@@ -58,7 +65,7 @@ content{
 
 .buffalomac {
   display: flex;
-  width: 200px;
+  width: 218px;
   border: 2px solid black;
   background: #FFFF66;
   margin: 16px auto;
@@ -69,7 +76,7 @@ content{
 
 .cheesecake {
   display: flex;
-  width: 200px;
+  width: 218px;
   border: 2px solid black;
   background: lightgreen;
   margin: 16px auto;
